@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="API suite" parallel="tests" >
+  <test name="Test on rest API" >
+    <classes>
+       <class name="APITesting.com.org.api.WeatherGetRequest"/>
+    </classes>
+  </test>
+ 
+  
+</suite>
+
